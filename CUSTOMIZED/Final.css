@@ -1,0 +1,33 @@
+/*BEGIN PS4 Controller Styling*/
+.controller.ds4 {
+    background: url(base.png);
+    height: 598px;
+    width: 806px;
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
+}
+
+.ds4 .stick {
+    position: absolute;
+    background: url(ps4-assets/sticks.png);
+    height: 94px;
+    width: 94px;
+}
+
+.ds4 .stick.pressed.left {
+    background-position-x: -96px;
+}
+
+.ds4 .stick.pressed.right {
+    background-position-x: -192px;
+}
+
+.ds4 .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.ds4 .stick.right {
+    top: calc(100% - 105px);
+    left: calc(100% - 105px);
+}
